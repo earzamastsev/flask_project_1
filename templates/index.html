@@ -14,7 +14,7 @@
     {% for tour, values in tours.items() %}
     <div class="col-4" data-test="card">
             <div class="card mb-3">
-                <img src={{ values.picture }} class="card-img-top img-fluid" data-test="picture">
+                <img src={{ values.picture }} class="card-img-top img-fluid img-resize" data-test="picture">
                 <div class="card-body">
                     <h5 class="card-title">{{ values.title }} </h5>
                     <p class="card-text">{{ values.description|truncate(100) }} </p>

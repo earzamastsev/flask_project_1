@@ -1,4 +1,6 @@
 <style>
-.gallery2 .ramka { float: left; margin-right: 10px; margin-bottom: 10px;}
-.gallery2 img { width: 300px; height: 200px; }
+img {
+    width: 100%;
+    height: auto;
+}
 </style>
